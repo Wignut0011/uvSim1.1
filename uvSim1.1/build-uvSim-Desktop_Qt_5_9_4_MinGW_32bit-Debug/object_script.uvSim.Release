@@ -1,0 +1,12 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\codeeditor.o
+./release\consolewindow.o
+./release\core.o
+./release\compiler.o
+./release\cpu.o
+./release\moc_mainwindow.o
+./release\moc_codeeditor.o
+./release\moc_consolewindow.o
+);

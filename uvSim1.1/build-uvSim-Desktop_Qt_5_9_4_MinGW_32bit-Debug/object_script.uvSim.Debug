@@ -1,0 +1,12 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\codeeditor.o
+./debug\consolewindow.o
+./debug\core.o
+./debug\compiler.o
+./debug\cpu.o
+./debug\moc_mainwindow.o
+./debug\moc_codeeditor.o
+./debug\moc_consolewindow.o
+);
