@@ -13,15 +13,14 @@ class CPU
 
 private:
 
-    std::vector<Core*> _cores;
+    std::vector<Core*> threadPool;
 
 public:
 
-    void SetMem(int (&mem)[1000]);
 
-    void CreateCores();
-    //<Core> Cores;
-    // vector<DWORDS> IdS;
+
+    void CreateCores(std::vector<int> &memLoc);
+
 };
 
 #endif // CPU_H

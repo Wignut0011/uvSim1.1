@@ -60,7 +60,6 @@ class QPaintEvent;
 class QResizeEvent;
 class QSize;
 class QWidget;
-
 class LineNumberArea;
 
 
