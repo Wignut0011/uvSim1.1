@@ -50,7 +50,7 @@ public:
      // returns: nothing
      // inputs: text as a string.
      void write(std::string text){
-         consoleInput = inputString;
+         consoleInput = text;
          emit writeSignal();
       }
 
