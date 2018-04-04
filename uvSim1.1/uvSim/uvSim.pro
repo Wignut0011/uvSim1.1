@@ -28,21 +28,17 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     codeeditor.cpp \
-    consolewindow.cpp \
-    core.cpp \
     compiler.cpp \
     cpu.cpp
 
 HEADERS += \
-        mainwindow.h \
-        codeeditor.h \
+    mainwindow.h \
+    codeeditor.h \
     consolewindow.h \
-    core.h \
     compiler.h \
     cpu.h \
     memory.h \
-    guiluancher.h \
-    thread.h
+    core.h
 
 FORMS += \
         mainwindow.ui
@@ -50,3 +46,5 @@ FORMS += \
 # install
 target.path = $$[QT_INSTALL_EXAMPLES]/widgets/widgets/codeeditor
 INSTALLS += target
+
+

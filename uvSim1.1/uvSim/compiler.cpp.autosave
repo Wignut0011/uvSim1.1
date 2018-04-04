@@ -11,16 +11,19 @@ Compiler::Compiler(std::stringstream &input){
 
     while(true){
         std::string grabed;
-       std::getline(input, grabed);
+        std::getline(input, grabed);
 
        // check if we get the program operand
        if(grabed == "5000"){
-           std::string pc;
-           std::getline(input, pc);
-        MemLoc.push_back(std::stoi(pc));
-        c= std::stoi(pc);
-
-        std::getline(input, grabed);
+            std::string pc;
+            
+            // get the next memory address
+            std::getline(input, pc);
+            MemLoc.push_back(std::stoi(pc));
+            c= std::stoi(pc);
+            
+            // grab the next one
+            std::getline(input, grabed);
        }
 
          Memory[c] = std::stoi(grabed);

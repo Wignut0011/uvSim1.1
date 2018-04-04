@@ -17,8 +17,7 @@ public:
     ~MainWindow();
 
 
-signals:
-    void MemoryChanged();
+
 private slots:
     void on_Run_clicked();
 

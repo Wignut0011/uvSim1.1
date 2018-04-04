@@ -147,7 +147,7 @@ signals:
       void readSignal();
 
       // emited when the enter key is pressed but doesn't do anything unless the
-      // done variable is set to true.s
+      // done variable is set to true.
       void closeSignal();
 
 

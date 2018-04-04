@@ -37,6 +37,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_Run_clicked()
 {
+    if(threadRep.size() == 0){
     QString input = ui->Code->toPlainText();
 
     stringstream code;
@@ -46,6 +47,7 @@ void MainWindow::on_Run_clicked()
     Compiler b(code);
     updateMemory();
     b.Run();
+    }
 }
 
 void MainWindow::updateMemory(){

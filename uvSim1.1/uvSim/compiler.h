@@ -15,7 +15,7 @@ public:
     void Run();
 
 private:
-   //vector<int> MemLoc;
+    std::vector<int> MemLoc = {0};
    CPU cPU;
 };
 
