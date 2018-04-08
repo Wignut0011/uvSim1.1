@@ -269,13 +269,13 @@ operand
 * 4100 BRANCH NEG
 ```
 Branch instruction that directs the PC to the location listed in the 
-operand if the last arithmetic operation resulted in a negative.
+operand if the accumulator contains a negative.
 ```
 
 * 4200 BRANCH ZERO
 ```
 Branch instruction that directs the PC to the location listed in the 
-operand if the last arithmetic operation resulted in a zero.
+operand if the accumulator contains a zero.
 ```
 
 * 4300 HALT
