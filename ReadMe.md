@@ -185,6 +185,8 @@ window will appear. In the end of the code execution, there will be a memory dum
 displayed on the console window which will display the memory and the contents of the 
 accumulator.
 
+*Please start your code with the NEW CORE opcode: 50000 0000
+
 *If you are adding raw data for aritmatic purposes, please insert a halt before
  adding the raw data so the program won't try to run it as code.
 ```
